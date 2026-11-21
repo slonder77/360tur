@@ -1,0 +1,502 @@
+[
+  {
+    "groupName": "P1 cockpit panel",
+    "items": [
+      {
+        "id": 1,
+        "title": "Capt side panels",
+        "desc": "<b>Details:</b><br><ul><li>Capt side instruments.</li><li>See more for details.</li></ul>",
+        "image": "resimler/max/display_units_capt.png",
+        "subHotspots": [
+          {
+            "top": "60%",
+            "left": "30%",
+            "title": "Capt Outbd DU",
+            "desc": "<b>Detail/description:</b> Captain side outboard display unit. Shows primary flight display",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal (PFD/ND) Display",
+                "desc": "Standard primary flight display.",
+                "image": "resimler/max/display_unit_capt_lh_outbd.png",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "Maximum Operating Speed",
+                    "desc": "<b>Detail:</b> Vmo/Mmo limit.<ul><li>check cb.</li><li>See mel 31-xx for details.</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags (Faults) on PFD",
+                "desc": "Failure flags on PFD screen.",
+                "image": "resimler/max/display_unit_capt_lh_inbd_detail.png",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "ATT Flag",
+                    "desc": "<b>Detail:</b> Attitude fault flag.<ul><li>check cb.</li><li>See mel 31-xx for details.</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "60%",
+            "left": "60%",
+            "title": "Capt Inbd DU",
+            "desc": "<b>Detail/description:</b> Captain side inboard display unit. Shows navigation display.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal ND Display",
+                "desc": "Standard Navigation display (ND).",
+                "image": "resimler/max/display_unit_capt_lh_inbd.png",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>check cb.</li><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags (Faults) on ND",
+                "desc": "Failure flags on ND screen.",
+                "image": "resimler/max/display_unit_capt_lh_inbd_detail..png",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>check cb.</li><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "30%",
+            "left": "10%",
+            "title": "Clock",
+            "desc": "Capt side clock displays",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Indication",
+                "desc": "N/A",
+                "image": "resimler/max/cptd_du_clock.png",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags / Faults",
+                "desc": "N/A",
+                "image": "resimler/max/cptd_du_clock.png",
+                "subHotspots": [
+                  {
+                    "top": "18%",
+                    "left": "60%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "30%",
+            "left": "31%",
+            "title": "Below G/S",
+            "desc": "Capt side Below Gs fault",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Indication",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_belowgs_warn.jpg",
+                "subHotspots": [
+                  {
+                    "top": "10%",
+                    "left": "10%",
+                    "title": "N/A",
+                   "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags / Faults",
+                "desc": "N/A",
+                "visible": false,
+                "image": "resimler/max/p_cap_belowgs_warn.jpg",
+                "subHotspots": [
+                  {
+                    "top": "18%",
+                    "left": "60%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+              
+               {
+            "top": "30%",
+            "left": "70%",
+            "title": "Warnings panel",
+            "desc": "Capt side warnings",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Indication",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_warninglights.jpg",
+                "subHotspots": [
+                  {
+                    "top": "10%",
+                    "left": "10%",
+                    "title": "N/A",
+                   "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags / Faults",
+                "desc": "N/A",
+                "visible": false,
+                "image": "resimler/max/p_cap_warninglights.jpg",
+                "subHotspots": [
+                  {
+                    "top": "18%",
+                    "left": "60%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+              
+              
+              
+          {
+            "top": "30%",
+            "left": "50%",
+            "title": "Capt side DU switching panel",
+            "desc": "Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Switch Position Normal",
+                "desc": "N/A",
+                "image": "resimler/max/p_captinstr_ctl.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Switch Position Alternate",
+                "desc": "N/A",
+                "image": "resimler/max/p_captinstr_ctl.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "10%",
+            "left": "70%",
+            "title": "ASA annunciator",
+            "desc": "Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Indication",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_asa.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Faults",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_asa.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "20%",
+            "left": "95%",
+            "title": "ISFD",
+            "desc": "ISFD Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Display",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_isfd.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags / Faults",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_isfd.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "60%",
+            "left": "85%",
+            "title": "RMI",
+            "desc": "Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Display",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_rmi.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flags / Faults",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_rmi.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "55%",
+            "left": "15%",
+            "title": "NW steering Normal/alternate switch",
+            "desc": "NW Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Normal Operation",
+                "desc": "N/A",
+                "image": "resimler/max/p_nosewheelsteering_switch.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Alternate Operation",
+                "desc": "N/A",
+                "image": "resimler/max/p_nosewheelsteering_switch.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "5%",
+            "left": "90%",
+            "title": "Lıght test switch",
+            "desc": "ls Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Test Position 1",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_lighttest_switch.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Test Position 2",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_lighttest_switch.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "80%",
+            "left": "20%",
+            "title": "capt side air controls",
+            "desc": "Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Foot Air Control",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_airflows.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Windshield Air Control",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_airflows.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "top": "80%",
+            "left": "40%",
+            "title": "capt instruments light control",
+            "desc": "Açıklama metni buraya yazılacak.",
+            "isSubList": true,
+            "items": [
+              {
+                "id": 1,
+                "title": "Panel Light Adjustment",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_instr_light_controls.jpg",
+                "subHotspots": [
+                  {
+                    "top": "50%",
+                    "left": "20%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Flood Light Adjustment",
+                "desc": "N/A",
+                "image": "resimler/max/p_cap_instr_light_controls2.jpg",
+                "subHotspots": [
+                  {
+                    "top": "28%",
+                    "left": "42%",
+                    "title": "N/A",
+                    "desc": "<b>Detail:</b> N/A<ul><li>N/A</li></ul>"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

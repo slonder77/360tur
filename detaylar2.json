@@ -1,0 +1,51 @@
+[
+    {
+        "groupName": "LE devices contorl indikasyon panel",
+        "items": [
+            {
+                "id": 1,
+                "title": "LE devices indications",
+                "desc": "<b>Sistem Görevi:</b><br><ul><li>Bu kilit mekanizması motor gücünün yanlışlıkla rölanti dışına çıkmasını engeller.</li><li>Acil durumlarda mandal yukarı çekilerek serbest bırakılır.</li></ul>",
+                "image": "resimler/max/p5_elt_control_and_le_device_annunciator.png",
+                "subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "40%",
+                        "title": "le devices flap indication transit",
+                        "desc": "<b>Detay:</b> le devices indkasyon gösterir"
+                    },
+                    {
+                        "top": "60%",
+                        "left": "40%",
+                        "title": "le devices flap indication full",
+                        "desc": "<b>Detay:</b> le devices indkasyon gösterir"
+                    },
+                    {
+                        "top": "45%",
+                        "left": "75%",
+                        "title": "le slats 5678 gösteri",
+                        "desc": "<b>Detay:</b> 5,6,7,8 in tranasit, extend ful extende dolduğuu gösterir"
+                    },
+                    {
+                        "top": "45%",
+                        "left": "20%",
+                       "title": "le slats 1234 gösteri",
+                        "desc": "<b>Detay:</b> 1,2,3,4 in tranasit, extend ful extende dolduğuu gösterir"
+                    },{
+                        "top": "90%",
+                        "left": "60%",
+                       "title": "le devices inkasyon test switch",
+                        "desc": "<b>Detay:</b> lambaları test için basınız gösterir"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "BUTON",
+                "desc": "<b>Açıklama:</b><br>• Madde 1",
+                "image": "resimler/max/ornek.jpg",
+                "subHotspots": []
+            }
+        ]
+    }
+]

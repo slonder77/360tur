@@ -1,0 +1,40 @@
+[
+    {
+        "groupName": "P5 ELT Ctl panel",
+        "items": [
+            {
+                "id": 1,
+                "title": "P5 ELT CONTROL PANEL",
+                "desc": "The emergency Locator transmitter <b>(ELT)</b> system automatically sends emergency signals when it senses a large change in the airplane’s velocity. \n\nThe ELT sends homing signals to search and rescue crews on the VHF and UHF emergency channels.\n\nThe ELT also sends emergency signals to satellite receivers. ",
+                "image": "resimler/max/p5_max_elt_pnl.png",
+                "subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "20%",
+                        "title": "ELT LIGHT",
+                        "desc": "<span style=\"color: rgb(217, 119, 6); font-weight: bold;\">ELT Light (amber),</span>\n          The ELT Iight on the control panel and the master caution Iights come on immediately when you put the ELT control switch to ON.\n"
+                    },
+                    {
+                        "top": "40%",
+                        "left": "80%",
+                        "title": "ELT TEST SWITCH",
+                      "desc": "         \n<b>ELT Control Switch,</b>\n          The emergency locator transmitter (ELT) control panel lets you monitor and do a test of the ELT.\nWhen ELT control switch is set to ON, 3 sweeps of the emergency audio signal can be heard. \n  -The <b>ON</b> position manually tunes on the transmitter.\n  -The <b>ARM</b> position is the normal position for flight. The switch has a guard to keep it in the ARM position,\n  -The <b>RESET</b> position resets the system.\n\n         To test the 121.5/243.0 MHz transmitter, it is necessary to tune of the VHF transceivers to listen to the ELT (Emergency Locator Transmitter) transmission.\nWhen ELT control switch is set to ON, 3 sweeps of the emergency audio signal can be heard.\nThe satellite receivers ignore any ELT transmission that is less than 15 seconds.\nIf the ELT transmits more than 15 seconds, the satellite receivers process the transmissions as a distress signal.\n\n<b>CAUTION:</b> IF THE ELT IS INADVERTENTLY OPERATED FOR LONGER THAN 15SECONDS THEN THE AUTHORITIES MUST BE INFORMED TO PREVENT EMERGENCY SEARCH OPERATIONS THAT ARE NOT NECESSARY."
+                    },
+                    {
+                        "top": "65%",
+                        "left": "40%",
+                        "title": "ELT INFO",
+                        "desc": "\nThe emergency Locator transmitter (ELT) system automatically sends emergency signals when it senses a large change in the airplane’s velocity. \n\nThe ELT sends homing signals to search and rescue crews on the VHF and UHF emergency channels.\n\nThe ELT also sends emergency signals to satellite receivers. The satellite receivers send this information to ground stations to calculate the location of the distress signals.\n\nThe ELT transmitter has two transmitter sections. \n-One transmitter sends a swept tone on the VHF and UHF emergency channels (121 .5 and 243.0 MHz).\n-The other transmitter sends digital data every 50 seconds on the 406 MHz channel.\n\nThe antenna sends the 121.5/243.0 MHz and 406 MHz transmit signals."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "BUTON",
+                "desc": "<b>Açıklama:</b><br>• Madde 1",
+                "image": "resimler/max/00_bos.jpg",
+                "subHotspots": []
+            }
+        ]
+    }
+]

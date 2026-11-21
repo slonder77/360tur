@@ -1,0 +1,40 @@
+[
+    {
+        "groupName": "yakıt paneli",
+        "items": [
+            {
+                "id": 1,
+                "title": "CAPT EFİS CONTRO PANEL",
+                "desc": "<b>Sistem Görevi:</b><br><ul><li>Bu kilit mekanizması motor gücünün yanlışlıkla rölanti dışına çıkmasını engeller.</li><li>Acil durumlarda mandal yukarı çekilerek serbest bırakılır.</li></ul>",
+                "image": "resimler/max/p_efis_capt_detail.jpg",
+                "subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "40%",
+                        "title": "RADIO MIN SELECTOR",
+                        "desc": "<b>Detay:</b> RADİ MİN SELECTRO YAPAR"
+                    },
+                    {
+                        "top": "40%",
+                        "left": "80%",
+                        "title": "BARO IN SELECTOR",
+                        "desc": "<b>Detay:</b> ABARO INCN SELECTRO YAPAR"
+                    },
+                    {
+                        "top": "65%",
+                        "left": "35%",
+                        "title": "WXR",
+                        "desc": "WXR AÇ KAPA YAPAR"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "BUTON",
+                "desc": "<b>Açıklama:</b><br>• Madde 1",
+                "image": "resimler/max/ornek.jpg",
+                "subHotspots": []
+            }
+        ]
+    }
+]

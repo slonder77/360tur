@@ -1,0 +1,112 @@
+[
+  {
+    "groupName": "p2 LG lever",
+    "items": [
+      {
+        "id": 1,
+        "title": "Lever",
+        "desc": "Bu alan uçuş ekibi emniyet kemerleri ve gözlemci koltuğu sisteminin teknik detaylarını barındırır. İlgili prosedürler AMOS sistemi üzerinden takip edilir.",
+        "image": "resimler/max/p2_landing_gear_control_lever_module_and_ISFD.png",
+        "subHotspots": [
+          {
+            "top": "40%",
+            "left": "40%",
+            "title": "XX1",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          },
+          {
+            "top": "40%",
+            "left": "80%",
+            "title": "XX2",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          },
+          {
+            "top": "65%",
+            "left": "35%",
+            "title": "XX3",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Landing Gear Indicator Lights",
+        "desc": "Landing Gear Panel",
+        "image": "resimler/max/p2_lg_lever.png",
+        "subHotspots": [
+          {
+            "top": "45%",
+            "left": "45%",
+            "title": "Landing Gear Indicator Lights",
+            "desc": "<b>Detay:</b>\nNOTE: The landing gear warning horn is deactivated with all gears down and locked.\nNOTE: Landing gear is down and locked as\n<span style='color: green;'>long as one green landing gear indicator light (center panel or overhead panel)</span> for each gear is on.\nExtinguishes when the landing gear is not down and locked.\nLanding Gear Indicator Lights (P5 Overhead Panel 3, green) Same explanation as above\n\n<b>Landing Gear Indicator Lights (3, red)</b>\nIlluminated (red)\n− Appears when the landing gear is not down and locked.\nThis happens with either or both forward thrust levers retarded to idle, and below 800 feet AGL (Above Ground Level).\n− Appears also always when the related landing gear is in disagreement with the position of the landing gear lever (either when in transit or when unsafe).\nExtinguishes when the landing gear is up and locked with landing gear lever in UP or OFF.\nor landing gear is down and locked with landing gear lever DN."
+          },
+          {
+            "top": "40%",
+            "left": "80%",
+            "title": "XX2",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          },
+          {
+            "top": "70%",
+            "left": "40%",
+            "title": "Nose Wheel steering",
+            "desc": "These are the components of the nose wheel steering system in the flight compartment:\n- Steering wheel\n- Auxiliary nose wheel steering switch\n- Rudder pedals.\n\nThe proximity switch electronics unit (PSEU) is in the FWD equipment compartment\n\n\n<b style=\"color: rgb(0, 102, 204);\">Nose Wheel Steering Switch,</b>\n     <b>ALT</b> – hydraulic system B provides power for nose wheel steering.\n    <b> NORM</b> (guarded position) – hydraulic system A provides power for nose wheel steering."
+
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "ISFD",
+        "desc": "Ana gösterge panelleri, VHF radyo frekans dizilimleri ve 8.33 kHz kanal aralığı seçicilik testlerinin yapıldığı ana konsoldur.",
+        "image": "resimler/max/p2_lg_lever.png",
+        "subHotspots": [
+          {
+            "top": "40%",
+            "left": "40%",
+            "title": "XX1",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          },
+          {
+            "top": "40%",
+            "left": "80%",
+            "title": "XX2",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          },
+          {
+            "top": "65%",
+            "left": "35%",
+            "title": "XX3",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Nose Wheel steering",
+        "desc": "These are the components of the nose wheel steering system in the flight compartment:",
+        "image": "resimler/max/p2_lg_lever.png",
+        "subHotspots": [
+          {
+            "top": "70%",
+            "left": "50%",
+            "title": "Nose Wheel steering",
+            "desc": "These are the components of the nose wheel steering system in the flight compartment:\n- Steering wheel\n- Auxiliary nose wheel steering switch\n- Rudder pedals.\n\nThe proximity switch electronics unit (PSEU) is in the FWD equipment compartment\n\n\n<b style=\"color: rgb(0, 102, 204);\">Nose Wheel Steering Switch,</b>\n     <b>ALT</b> – hydraulic system B provides power for nose wheel steering.\n    <b> NORM</b> (guarded position) – hydraulic system A provides power for nose wheel steering."
+          },
+          {
+            "top": "40%",
+            "left": "80%",
+            "title": "XX2",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          },
+          {
+            "top": "65%",
+            "left": "35%",
+            "title": "XX3",
+            "desc": "<b>Detay:</b> XX YAPAR"
+          }
+        ]
+      }
+    ]
+  }
+]

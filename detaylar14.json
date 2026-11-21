@@ -1,0 +1,113 @@
+[
+  {
+    "groupName": "COCKPIT SeatS (Seats Grubu)",
+    "items": [
+      {
+        "id": 1,
+        "title": "Kaptan",
+        "desc": "Bu alan uçuş ekibi emniyet kemerleri ve gözlemci koltuğu sisteminin teknik detaylarını barındırır. İlgili prosedürler AMOS sistemi üzerinden takip edilir.",
+        "image": "resimler/max/cockpit_seat_capt.jpg",
+"subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "40%",
+                        "title": "XX1",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "40%",
+                        "left": "80%",
+                        "title": "XX2",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "65%",
+                        "left": "35%",
+                        "title": "XX3",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    }
+                ]
+      },
+      {
+        "id": 2,
+        "title": "İkinci Gözlemci Detayı",
+        "desc": "İkinci gözlemci istasyonu elektrik panelleri ve devre kesici (circuit breaker) haritalaması bu bölümde incelenmektedir.",
+        "image": "resimler/max/cabin_cockpit_second_observer.jpg",
+"subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "40%",
+                        "title": "XX1",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "40%",
+                        "left": "80%",
+                        "title": "XX2",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "65%",
+                        "left": "35%",
+                        "title": "XX3",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    }
+                ]
+
+      },
+{
+        "id": 3,
+        "title": "Observer light",
+        "desc": "Ana gösterge panelleri, VHF radyo frekans dizilimleri ve 8.33 kHz kanal aralığı seçicilik testlerinin yapıldığı ana konsoldur.",
+        "image": "resimler/max/cockpit_map_chart_flexible_light_observer.png",
+"subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "40%",
+                        "title": "XX1",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "40%",
+                        "left": "80%",
+                        "title": "XX2",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "65%",
+                        "left": "35%",
+                        "title": "XX3",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    }
+]
+ },
+{
+        "id": 4,
+        "title": "Observer oxy mask",
+        "desc": "Ana gösterge panelleri, VHF radyo frekans dizilimleri ve 8.33 kHz kanal aralığı seçicilik testlerinin yapıldığı ana konsoldur.",
+        "image": "resimler/max/cockpit_oxygen_mask_observer.png",
+"subHotspots": [
+                    {
+                        "top": "40%",
+                        "left": "40%",
+                        "title": "XX1",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "40%",
+                        "left": "80%",
+                        "title": "XX2",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    },
+                    {
+                        "top": "65%",
+                        "left": "35%",
+                        "title": "XX3",
+                        "desc": "<b>Detay:</b> XX YAPAR"
+                    }
+
+                ]
+        }
+]
+    }
+]

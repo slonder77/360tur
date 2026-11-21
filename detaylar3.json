@@ -1,0 +1,41 @@
+[
+  {
+    "groupName": "Elevator jam control panel",
+    "items": [
+      {
+        "id": 1,
+        "title": "Elev jam control",
+        "desc": "<b>Sistem Görevi:</b><br><ul><li>Bu kilit mekanizması motor gücünün yanlışlıkla <b>rölanti dışına</b> çıkmasını engeller.</li><li>Acil durumlarda <span style='color: #ff8c00;'>mandal yukarı çekilerek</span> serbest bırakılır.</li></ul><br><small style='color: #666;'>Not: Kontrolü her uçuş öncesi test edin.</small>",
+        "image": "resimler/max/p5_elevator_jam_landing_assist_switch_and_maint_light.png",
+        "subHotspots": [
+          {
+            "top": "50%", 
+            "left": "55%", 
+            "title": "İkaz ve Emniyet Kilidi", 
+            "desc": "<b>Kilit Mekanizması Detayları:</b><br><br>• İstem dışı hareketleri önler.<br>• <span style='color: #d9534f;'>Kırmızı ikaz çizgisi</span> kilitliyken görünür.<br>• Bakım periyodu: <b>500 Saat</b>."
+          },
+          {
+            "top": "60%", 
+            "left": "40%", 
+            "title": "İkinci Hotspot Başlığı", 
+            "desc": "<b>Yeni Eklenen Nokta:</b><br>Bu açıklama resmin farklı bir koordinatındaki başka bir düğmeyi veya göstergeyi açıklar."
+          }
+        ]
+        },
+      {
+        "id": 2,
+        "title": "Gaz Kolu ve VHF Navigasyon",
+        "desc": "<b>Sistem Görevi:</b><br><ul><li>Bu kilit mekanizması motor gücünün yanlışlıkla <b>rölanti dışına</b> çıkmasını engeller.</li><li>Acil durumlarda <span style='color: #ff8c00;'>mandal yukarı çekilerek</span> serbest bırakılır.</li></ul><br><small style='color: #666;'>Not: Kontrolü her uçuş öncesi test edin.</small>",
+        "image": "resimler/max/p_gen_control.jpg",
+        "subHotspots": [
+          {
+            "top": "45%",
+            "left": "50%",
+            "title": "İkaz ve Emniyet Kilidi",
+            "desc": "<b>Kilit Mekanizması Detayları:</b><br><br>• İstem dışı hareketleri önler.<br>• <span style='color: #d9534f;'>Kırmızı ikaz çizgisi</span> kilitliyken görünür.<br>• Bakım periyodu: <b>500 Saat</b>."
+          }
+          ]
+      }
+    ]
+  }
+]

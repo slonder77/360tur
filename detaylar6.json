@@ -1,0 +1,87 @@
+[
+    {
+        "groupName": "P3 cockpit panel",
+        "items": [
+            {
+                "id": 1,
+                "title": "FO side panels",
+                "desc": "<b>Sistem Görevi:</b><br><ul><li>Bu kilit mekanizması motor gücünün yanlışlıkla rölanti dışına çıkmasını engeller.</li><li>Acil durumlarda mandal yukarı çekilerek serbest bırakılır.</li></ul>",
+                "image": "resimler/max/cds_p3_fo.jpg",
+                "subHotspots": [
+                    {
+                        "top": "60%",
+                        "left": "60%",
+                        "title": "FO Outbd DU",
+                        "desc": "<b>Detay:</b> İstem dışı hareketleri önler."
+                    },
+                    {
+                        "top": "60%",
+                        "left": "30%",
+                        "title": "FO Inbd DU",
+                        "desc": "<b>Detay:</b> ınbd nav display İstem dışı hareketleri önler."
+                    },
+                    {
+                        "top": "40%",
+                        "left": "85%",
+                        "title": "Clock",
+                        "desc": "FO side clock displays"
+                    },
+                    {
+                        "top": "25%",
+                        "left": "40%",
+                        "title": "FO side DU switching panel",
+                        "desc": "Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "20%",
+                        "left": "25%",
+                        "title": "ASA annunciator",
+                        "desc": "Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "50%",
+                        "left": "10%",
+                        "title": "LG lever and indications",
+                        "desc": "LG lever Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "20%",
+                        "left": "10%",
+                        "title": "LG pos indications",
+                        "desc": "LG lever Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "20%",
+                        "left": "15%",
+                        "title": "Hyd press indicator",
+                        "desc": "Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "80%",
+                        "left": "30%",
+                        "title": "GPWS",
+                        "desc": "NW Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "25%",
+                        "left": "30%",
+                        "title": "Warnng lights",
+                        "desc": "warnings Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "80%",
+                        "left": "85%",
+                        "title": "FO side air controls",
+                        "desc": "Açıklama metni buraya yazılacak."
+                    },
+                    {
+                        "top": "80%",
+                        "left": "55%",
+                        "title": "fo instruments light control",
+                        "desc": "Açıklama metni buraya yazılacak."
+                    }
+                ]
+            }
+        ]
+    }
+]
